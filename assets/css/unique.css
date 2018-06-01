@@ -1,0 +1,53 @@
+/* CORPO */
+body {
+    background-image: url("../img/fundo.gif");
+}
+/* NAVBARS */
+.navbar {
+    background-color: #521208;
+    border-color: transparent;
+}
+.navbar-default .navbar-text {
+    color: #fff;
+}
+.navbar:not(.navbar-fixed-bottom),
+.navbar:not(.navbar-fixed-bottom) .container,
+.navbar:not(.navbar-fixed-bottom) .container .navbar-brand {
+    height: 70px;
+}
+.navbar:not(.navbar-fixed-bottom) .navbar-brand {
+    padding: 5px;
+}
+.navbar:not(.navbar-fixed-bottom) .navbar-brand .brand {
+    width: auto;
+    height: 100%;
+}
+/* CONTAINERS */
+.row.carregando,
+.row.sucesso {
+    color: #521208;
+}
+div[class*=passo],
+form[class*=passo] {
+    background-image: url("../img/fundo.gif");
+}
+.plano, form[class*=passo] > div.row div[class*=col-md-5] {
+    background: transparent url("../img/fundoInterna.png") repeat-x;
+    color: #521208;
+    border-radius: 0;
+}
+form[class*=passo] > div.row div[class*=col-md-5]:nth-child(2) {
+    width: calc(41.6667% - 30px);
+    margin-left: 30px;
+}
+.btn.btn-primary {
+    background-color: #521208;
+    border-color: #521208;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.card .front {
+    background-image: url("../img/card-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

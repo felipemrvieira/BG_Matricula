@@ -1,0 +1,145 @@
+/*
+ * NÃO ALTERAR ESTE ARQUIVO!
+ *
+ * Use o arquivo customizar.css para qualquer alteração de cor, fonte, tamanhos, etc...
+*/
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    padding-bottom: 70px;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+.navbar {
+    height: 116px;
+    vertical-align: middle;
+    border-top: 4px;
+    border-top-style: solid;
+    border-top-color: #F58220;
+    border-radius: 0;
+    background-color: #292828;
+}
+.escondido {
+    display: none;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+.row.carregando {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 40%;
+    background-color: #ffffff;
+}
+form[class*="passo"],
+.row[class*="passo"] {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+}
+form[class*="passo"] .row:last-child,
+.row[class*="passo"]:not(.passo-2) {
+    padding-bottom: 70px;
+}
+
+.plano {
+    padding: 10px;
+    
+}
+.plano .corpo {
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.radio-inline input[type="radio"] {
+    width: auto;
+    height: 10px;
+}
+.contem-cartao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sucesso,
+.sucesso > div,
+.sucesso h1 {
+    height: 60%;
+    line-height: 60%;
+    vertical-align: middle;
+}
+.navbar-fixed-bottom .brand {
+    width: auto;
+    height: 100%;
+}
+.navbar-text {
+    margin-top: 15px !important;
+}
+.navbar {
+    padding-top: 15px !important;
+}
+.navbar-bottom {
+    height: 8px;
+    vertical-align: middle;
+    border-radius: 0;
+    background-color: #939297;
+}
+    .container {
+        width: 930px !important;
+    }
+
+.plano .corpo {
+    background-color: #F6F1F1;
+    border-radius: 0;
+    padding: 15px;
+    height: auto;
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F58220;
+    border: 2px solid #fff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    
+}
+
+.btn-primary:hover {
+   color: #fff;
+    background-color: #E67312;
+    border-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+   }
+
+.btn {
+    padding: 10px 50px;
+}
+
+.btn-home {
+    margin: 7px 0 -5px 0;
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .form-group div[class*="col-sm"] + div[class*="col-sm"] {
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .contem-cartao .card {
+        min-width: auto;
+    }
+    .card .front .lower .number {
+        font-size: 20px;
+    }
+    .card .front .lower .name {
+        font-size: 15px;
+        width: 150px;
+    }
+}

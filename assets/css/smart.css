@@ -1,0 +1,52 @@
+/* CORPO */
+body {
+    background-image: url("../img/body-background.gif");
+}
+/* NAVBARS */
+.navbar {
+    background-color: #f1a624;
+    border-color: transparent;
+}
+.navbar-default .navbar-text {
+    color: #000;
+}
+.navbar:not(.navbar-fixed-bottom),
+.navbar:not(.navbar-fixed-bottom) .container,
+.navbar:not(.navbar-fixed-bottom) .container .navbar-brand {
+    height: 70px;
+}
+.navbar:not(.navbar-fixed-bottom) .navbar-brand {
+    padding: 5px;
+}
+.navbar:not(.navbar-fixed-bottom) .navbar-brand .brand {
+    width: auto;
+    height: 100%;
+}
+/* CONTAINERS */
+.row.carregando,
+.row.sucesso {
+    color: lightgray;
+}
+div[class*=passo],
+form[class*=passo] {
+    background-image: url("../img/body-background.gif");
+}
+.plano, form[class*=passo] > div.row div[class*=col-md-5] {
+    border: 1px solid #4d4d4d;
+    background-color: rgba(60, 60, 60, 0.3);
+    color: lightgray;
+    border-radius: 0;
+}
+form[class*=passo] > div.row div[class*=col-md-5]:nth-child(2) {
+    width: calc(41.6667% - 30px);
+    margin-left: 30px;
+}
+.btn.btn-primary {
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.card .front, .card .back {
+    background: #363636;
+}

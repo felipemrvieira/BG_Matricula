@@ -1,0 +1,562 @@
+/*
+ * Insira suas regras de customizaÃ§Ã£o neste arquivo apenas!
+*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    font-family: 'neo sans';
+    font-style: normal;
+    src: url('../fonts/Neo%20Sans%20Std%20Italic.otf') format("opentype");
+    src: url('../fonts/Neo%20Sans%20Std%20Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Oxygen";
+    src: url("../fonts/Oxygen-Bold.ttf") format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Oxygen";
+    src: url("../fonts/Oxygen-Light.ttf") format('truetype');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Oxygen";
+    src: url("../fonts/Oxygen-Regular.ttf") format('truetype');
+    font-weight: normal;
+}
+
+.corpo h3 {
+    font-family: "neo sans", sans-serif;
+    font-size: 22px !important;
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-image: url("../img/vendas_barra_planos_divisao.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 75px;
+}
+
+.corpo h1 {
+    font-family: "neo sans", sans-serif;
+    font-size: 12px !important;
+    margin-top: 13px !important;
+    padding-bottom: 20px !important;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 55px;
+}
+
+.VendasOnline_Plano_Texto_Geral ul {
+
+}
+
+.VendasOnline_Plano_Texto_Geral li {
+
+}
+
+.VendasOnline_Plano_Texto_Geral li:first-child {
+
+}
+
+.VendasOnline_Plano_Texto_Geral li:last-child {
+
+}
+
+.VendasOnline_Plano_Condicoes_container {
+    width: auto;
+    overflow: hidden;
+    padding-bottom: 20px !important;
+    margin-bottom: 20px;
+}
+
+.VendasOnline_Plano_Custos_container {
+    background-image: url("../img/vendas_barra_planos_divisao.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+.VendasOnline_Plano_Condicoes_Texto_Geral td {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px !important;
+    padding: 0px 10px !important;
+    margin: 0px !important;
+
+}
+
+.VendasOnline_Plano_Condicoes_Texto_Geral tr:last-child {
+
+}
+
+.VendasOnline_Plano_Condicoes_Texto_Geral td:last-child {
+    padding-bottom: 10px !important;
+}
+
+.VendasOnline_Plano_Condicoes_Texto_Geral i {
+    color: #1DC359;
+}
+
+.divinfopreco {
+    width: 112%;
+    height: 90px;
+    padding-top: 3px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    display: block;
+    background-color: #333333;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "neo sans", sans-serif;
+    font-size: 38px !important;
+    display: inline-block;
+
+}
+
+.divinfopreco p {
+    height: 25px !important;
+}
+
+.info p {
+    font-style: italic;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 20px;
+    vertical-align: top;
+    border: none !important;
+}
+
+.adesao {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px !important;
+    padding: 0px 10px !important;
+    margin: 0px !important;
+}
+
+.mensal {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px !important;
+    padding: 0px 10px !important;
+    margin: 0px !important;
+}
+
+.duracao {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px !important;
+    padding: 0px 10px !important;
+    margin: 0px !important;
+}
+
+.anuidade {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px !important;
+    padding: 0px 10px !important;
+    margin: 0px !important;
+}
+
+.info {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px !important;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.item {
+    background: #333;
+    text-align: center;
+    width: 930px;;
+    height: 460px !important;
+
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5;
+    width: 50px !important;
+}
+
+.vendaCadastroInternoContainer {
+    width: 930px !important;
+    margin: 0 auto;
+    background-color: #ffffff !important;
+}
+
+.carrousel_empresa_cidade {
+    opacity: 200%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.carrousel_empresa_cidade li {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.carrousel_empresa_cidade li:first-child {
+    padding: 0px 10px 0px 0px;
+    list-style-type: none;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.carrousel_empresa_horarios {
+    padding: 15px 0px 0px 40px;
+    vertical-align: top;
+    text-align: left;
+    opacity: 200%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.carrousel_empresa_horarios li {
+    display: inline;
+    float: left;
+    top: 0px;
+    list-style-type: none;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.carrousel_empresa_horarios li:first-child {
+    display: block !important;
+    width: 100% !important;
+}
+
+.vendas_carrosel_container_esq {
+    width: 40%;
+    height: 42px;
+    background-color: #F58220;
+    opacity: 1;
+    float: left;
+
+}
+
+.vendas_carrosel_container_esq p {
+    display: block;
+    padding: 10px 0 0 50px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.vendas_carrosel_container_dir {
+    width: 60%;
+    height: 42px;
+    background-color: #4F565C;
+    opacity: 1;
+    float: right;
+}
+
+.vendas_carrosel_container_dir p {
+    display: block;
+    padding: 10px 0 0 50px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.unidade_carrosel {
+    position: absolute;
+    top: 140px;
+    width: 930px;
+    color: #FFF;
+    margin-left: -15px;
+}
+
+.horarios_carrosel {
+    position: absolute;
+    top: 600px;
+    width: 930px;
+    color: #FFF;
+    margin-left: -15px;
+}
+
+/*tela de sucesso*/
+
+hr.message-inner-separator {
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
+
+.info_plano_cliente {
+    list-style-type: none;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 10px 35px 10px 0px;
+    margin: 0px 37px 0px -10px;
+    bottom: 10px;
+}
+
+.info_plano_cliente_claro {
+    list-style-type: none;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 10px 35px 10px 0px;
+    margin: 0px 37px 0px -10px;
+    bottom: 10px;
+    color: #BDB7B7;
+}
+
+.info_plano_cliente li:nth-child(odd) {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    float: left;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 0px;
+    bottom: 10px;
+    color: #BDB7B7;
+}
+
+.info_plano_cliente li:nth-child(even) {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    float: right;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    bottom: 10px;
+    color: #0f0f0f;
+}
+
+.info_plano_cliente_cadastro {
+    list-style-type: none;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 10px 35px 10px 0px;
+    margin: 0px 10px 0px 10px;
+    bottom: 10px;
+}
+
+.info_plano_cliente_cadastro li:nth-child(odd) {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    float: left;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 0px;
+    bottom: 10px;
+    color: #555555;
+}
+
+.info_plano_cliente_cadastro li:nth-child(even) {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    float: right;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    bottom: 10px;
+    color: #0f0f0f;
+}
+
+.supertitulo_cliente {
+    font-family: "neo sans", sans-serif;
+    font-size: 42px;
+    margin-top: 0px !important;
+}
+
+.titulo_cliente {
+    font-family: "neo sans", sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    margin-top: 0px !important;
+
+}
+
+.subtitulo_cliente {
+    font-family: "neo sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 0px !important;
+}
+
+.container_info_cliente {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    margin: 10px 0px 10px 0px !important;
+}
+
+.container_info_titulos_cliente {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: block;
+}
+
+.container_info_titulos_cliente h3 {
+    margin: 10px 0px 10px 0px !important;
+}
+
+.table td {
+    vertical-align: middle !important;
+}
+
+.btn-default {
+    color: #ffffff !important;
+    background-color: #F58220 !important;
+    border-color: #fff !important;
+    line-height: 0;
+}
+
+.btn-default:hover {
+    color: #ffffff !important;
+    background-color: #E67312 !important;
+    border-color: #fff !important;
+    line-height: 0;
+}
+
+
+
+
+.modal-backdrop.in {
+    opacity: 0.9;
+}
+
+.alert-purple {
+    border-color: #694D9F;
+    background: #694D9F;
+    color: #fff;
+}
+
+.alert-info-alt {
+    border-color: #ffcc00;
+    background: #ffcc00;
+    color: #a76400;
+}
+
+.alert-danger-alt {
+    border-color: #B63E5A;
+    background: #E26868;
+    color: #fff;
+}
+
+.alert-warning-alt {
+    border-color: #F3F3EB;
+    background: #E9CEAC;
+    color: #fff;
+}
+
+.alert-success-alt {
+    border-color: #19B99A;
+    background: #20A286;
+    color: #fff;
+}
+
+.glyphicon {
+    margin-right: 10px;
+}
+
+.alert a {
+    color: gold;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    background: #ccc
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #ccc
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888
+}
+
+.texto_12px {
+    font-size: 12px !important;
+    position: relative;
+    bottom: 0px;
+    float: left;
+}
+
+.texto_18px {
+    font-size: 18px !important;
+    position: relative;
+    bottom: 0px;
+    float: right;
+}
+
+.info_div_linha {
+    display: inline-block;
+    width: 425px;
+    margin-left: 20px;
+}
+
+.vendas_fase1 {
+    width: 895px;
+    height: 264px;
+    margin: 0 auto !important;
+    background-image: url("../img/banner_fase1.png");
+    background-repeat: no-repeat;
+}
+
+.vendas_fase2 {
+    width: 930px;
+    height: 160px;
+    margin: 0 auto !important;
+    background-image: url("../img/banner_fase2.png");
+    background-repeat: no-repeat;
+}
+
+.vendas_fase3 {
+    width: 930px;
+    height: 140px;
+    margin: 0 auto !important;
+    background-image: url("../img/banner_fase3.png");
+    background-repeat: no-repeat;
+}
+
+.vendas_fase4 {
+    width: 930px;
+    height: 140px;
+    margin: 0 auto !important;
+    background-image: url("../img/banner_fase4.png");
+    background-repeat: no-repeat;
+}
+
+.passo-0 {
+    position: absolute;
+    height: 100%;
+}
+
+.plano {
+    margin-bottom: 70px;
+}
