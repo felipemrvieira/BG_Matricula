@@ -218,16 +218,17 @@ session_start()
                         <!-- Unidade 1 -->
                         <ul class="local_info_local">
                             <h1>Unidade</h1>
-                            <h5>Jatiúca</h5>
-                             <h1>Maceió - AL</h1>
+                            <h5>BG Praia</h5>
+                             <h1>Jatiúca, Maceió - AL</h1>
                         </ul>
 
                         <ul class="local_info_endereco">
                            <li>Rua Marechal Antônio Guedes Muniz, 112</li>
                         </ul>
                         <ul class="local_info_horario">
-                            <p>Seg à Sex: 05:00 às 22:00</p>
-                            <p>Sáb e Dom: 07:00 às 13:00</p>
+                        <p>Seg à Sex: 05:00 às 23:00</p>
+                        <p>Sáb: 08:00 às 14:00</p>
+                        <p>Dom: 09:00 às 13:00</p>
                     
                         </ul>
                         <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
@@ -253,17 +254,18 @@ session_start()
 
                         <!-- Unidade 2 -->
                         <ul class="local_info_local">
-                            <h1>Unidade2</h1>
-                            <h5>GRUTA DE LOURDES</h5>
-                             <h1>Maceió - AL</h1>
+                            <h1>Unidade</h1>
+                            <h5>BG Farol</h5>
+                             <h1>Farol, Maceió - AL</h1>
                         </ul>
 
                         <ul class="local_info_endereco">
                            <li>AVENIDA FERNANDES LIMA, 3204</li>
                         </ul>
                         <ul class="local_info_horario">
-                            <p>Seg à Sex: 05:00 às 22:00</p>
-                            <p>Sáb e Dom: 07:00 às 13:00</p>
+                            <p>Seg à Sex: 05:00 às 23:00</p>
+                            <p>Sáb: 08:00 às 14:00</p>
+                            <p>Dom: 09:00 às 13:00</p>
                     
                         </ul>
                         <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">

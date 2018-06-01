@@ -108,7 +108,8 @@
                     <ul class="carrousel_empresa_horarios">
                         <li>Horários:</li>
                         <li>Semana: 05:00 as 22:00</li>
-                        <li>Sabados e Domingos: 07:00 as 13:00</li>
+                        <li>Sábados: 08:00 as 14:00</li>
+                        <li>Domingos: 09:00 as 13:00</li>
                   
                     </ul>
                 </div>
