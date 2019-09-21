@@ -107,7 +107,7 @@
                     style="width: 100%; height: 75px; background-color: #101010; opacity: 0.5; position: absolute; bottom: 0; left: 0;">
                     <ul class="carrousel_empresa_horarios">
                         <li>Horários:</li>
-                        <li>Semana: 05:00 as 22:00</li>
+                        <li>Semana: 05:00 as 23:00</li>
                         <li>Sábados: 08:00 as 14:00</li>
                         <li>Domingos: 09:00 as 13:00</li>
                   

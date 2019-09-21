@@ -207,126 +207,132 @@ session_start()
 
     <div class="row passo-0 contem-planos">
         <!--container geral-->
-        <div class="container" style="background-color: #ffffff;">
+        <div class="container-fluid" style="background-color: #ffffff;">
             <!--banner topo-->
-            <div class="vendas_fase1">
+            <div class="vendas_fase1"></div>
 
-            </div>
 
-            <!-- Edite as informacoes da academia aqui, altere o nome, endereco e horarios da academia. Para adicionar uma nova unidade, basta copiar a div: "col-md-4 modelo plano" e adicionar-la no final da pagina -->
+            <div class="listagem-planos container-fluid" style="display: flex;justify-content: center;">
+
+                <!-- Edite as informacoes da academia aqui, altere o nome, endereco e horarios da academia. Para adicionar uma nova unidade, basta copiar a div: "col-md-4 modelo plano" e adicionar-la no final da pagina -->
                 
-             <div class="col-md-4 modelo plano" style="width: 370px; height: auto; position:relative; top:36% ; left: 7% ">
-                <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
-                    <div class="corpo">
-                        <!-- Insira aqui a imagem da unidade 1, resolucao recomendada: 280x161-->
-                        <div class="imagem_academia01">
-                          
-                        </div>
+                <div class="col-md-4 modelo plano" style="width: 370px; height: auto; ">
+                    <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
+                        <div class="corpo">
+                            <!-- Insira aqui a imagem da unidade 1, resolucao recomendada: 280x161-->
+                            <div class="imagem_academia01">
+                            
+                            </div>
 
-                        <!-- Unidade 1 -->
-                        <ul class="local_info_local">
-                            <h1>Unidade</h1>
-                            <h5>BG Praia</h5>
-                             <h1>Jatiúca, Maceió - AL</h1>
-                        </ul>
+                            <!-- Unidade 1 -->
+                            <ul class="local_info_local">
+                                <h1>Unidade</h1>
+                                <h5>BG Praia</h5>
+                                <h1>Jatiúca, Maceió - AL</h1>
+                            </ul>
 
-                        <ul class="local_info_endereco">
-                           <li>Rua Marechal Antônio Guedes Muniz, 112</li>
-                        </ul>
-                        <ul class="local_info_horario">
-                        <p>Seg à Sex: 05:00 às 23:00</p>
-                        <p>Sáb: 08:00 às 14:00</p>
-                        <p>Dom: 09:00 às 13:00</p>
-                    
-                        </ul>
-                        <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
-                            <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
-                            <input type="hidden" name="codEmpresa" value="1">
-                            <button type="submit" name="singlebutton"
-                                    class="btn  btn-home btn-primary btn-contratar">
-                                Ver Planos <i class="fa fa-arrow-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-			
-			
-			<div class="col-md-4 modelo plano" style="width: 370px; height: auto; position:relative; top:36% ; left: 7% ">
-                <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
-                    <div class="corpo">
-                        <!-- Insira aqui a imagem da unidade 1, resolucao recomendada: 280x161-->
-                        <div class="imagem_academia02">
-                          
-                        </div>
-
-                        <!-- Unidade 2 -->
-                        <ul class="local_info_local">
-                            <h1>Unidade</h1>
-                            <h5>BG Farol</h5>
-                             <h1>Farol, Maceió - AL</h1>
-                        </ul>
-
-                        <ul class="local_info_endereco">
-                           <li>Avenida Fernandes Lima, 3204</li>
-                        </ul>
-                        <ul class="local_info_horario">
+                            <ul class="local_info_endereco">
+                                <li>Rua Marechal Antônio Guedes Muniz, 112</li>
+                            </ul>
+                            <ul class="local_info_horario">
                             <p>Seg à Sex: 05:00 às 23:00</p>
                             <p>Sáb: 08:00 às 14:00</p>
                             <p>Dom: 09:00 às 13:00</p>
-                    
-                        </ul>
-                        <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
-                            <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
-                            <input type="hidden" name="codEmpresa" value="2">
-                            <button type="submit" name="singlebutton"
-                                    class="btn  btn-home btn-primary btn-contratar">
-                                Ver Planos <i class="fa fa-arrow-right"></i>
-                            </button>
+                        
+                            </ul>
+                            <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
+                                <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
+                                <input type="hidden" name="codEmpresa" value="1">
+                                <button type="submit" name="singlebutton"
+                                        class="btn  btn-home btn-primary btn-contratar">
+                                    Ver Planos <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                
+                
+                <div class="col-md-4 modelo plano" style="width: 370px; height: auto;  ">
+                    <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
+                        <div class="corpo">
+                            <!-- Insira aqui a imagem da unidade 1, resolucao recomendada: 280x161-->
+                            <div class="imagem_academia02">
+                            
+                            </div>
+
+                            <!-- Unidade 2 -->
+                            <ul class="local_info_local">
+                                <h1>Unidade</h1>
+                                <h5>BG Farol</h5>
+                                <h1>Farol, Maceió - AL</h1>
+                            </ul>
+
+                            <ul class="local_info_endereco">
+                                <li>Avenida Fernandes Lima, 3204</li>
+                            </ul>
+                            <ul class="local_info_horario">
+                                <p>Seg à Sex: 05:00 às 23:00</p>
+                                <p>Sáb: 08:00 às 14:00</p>
+                                <p>Dom: 09:00 às 13:00</p>
+                        
+                            </ul>
+                            <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
+                                <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
+                                <input type="hidden" name="codEmpresa" value="2">
+                                <button type="submit" name="singlebutton"
+                                        class="btn  btn-home btn-primary btn-contratar">
+                                    Ver Planos <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4 modelo plano" style="width: 370px; height: auto;  ">
+                    <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
+                        <div class="corpo">
+                            <!-- Insira aqui a imagem da unidade 3, resolucao recomendada: 280x161-->
+                            <div class="imagem_academia03">
+                            
+                            </div>
+
+                            <!-- Unidade 3 -->
+                            <ul class="local_info_local">
+                                <h1>Unidade</h1>
+                                <h5>BG Biu</h5>
+                                <h1>Benedito Bentes, Maceió - AL</h1>
+                            </ul>
+
+                            <ul class="local_info_endereco">
+                                <li>Avenida Cachoeira do Meirim, 33</li>
+                            </ul>
+                            <ul class="local_info_horario">
+                                <p>Seg à Sex: 05:00 às 23:00</p>
+                                <p>Sáb: 08:00 às 14:00</p>
+                                <p>Dom: 09:00 às 13:00</p>
+                        
+                            </ul>
+                            <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
+                                <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
+                                <input type="hidden" name="codEmpresa" value="3">
+                                <button type="submit" name="singlebutton"
+                                        class="btn  btn-home btn-primary btn-contratar">
+                                    Ver Planos <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            
+            
             </div>
-
-            <div class="col-md-4 modelo plano" style="width: 370px; height: auto; position:relative; top:36% ; left: 7% ">
-                <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
-                    <div class="corpo">
-                        <!-- Insira aqui a imagem da unidade 3, resolucao recomendada: 280x161-->
-                        <div class="imagem_academia03">
-                          
-                        </div>
-
-                        <!-- Unidade 3 -->
-                        <ul class="local_info_local">
-                            <h1>Unidade</h1>
-                            <h5>BG Biu</h5>
-                             <h1>Benedito Bentes, Maceió - AL</h1>
-                        </ul>
-
-                        <ul class="local_info_endereco">
-                           <li>Avenida Cachoeira do Meirim, 33</li>
-                        </ul>
-                        <ul class="local_info_horario">
-                            <p>Seg à Sex: 05:00 às 23:00</p>
-                            <p>Sáb: 08:00 às 14:00</p>
-                            <p>Dom: 09:00 às 13:00</p>
-                    
-                        </ul>
-                        <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
-                            <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
-                            <input type="hidden" name="codEmpresa" value="2">
-                            <button type="submit" name="singlebutton"
-                                    class="btn  btn-home btn-primary btn-contratar">
-                                Ver Planos <i class="fa fa-arrow-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <!-- Listagem planos -->
             
             
         </div>
     </div>
+</div>
     <!-- footer -->
 
     <nav class="navbar-bottom navbar-default navbar-fixed-bottom">
