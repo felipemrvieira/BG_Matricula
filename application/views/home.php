@@ -185,6 +185,14 @@ session_start()
             background: url("<?php echo base_url() . 'assets/img/academia02.png'?>") no-repeat center;
         }
 
+        .imagem_academia03 {
+            margin-left: -15px;
+            margin-top: -30px;
+            width: 350px;
+            height: 250px;
+            background: url("<?php echo base_url() . 'assets/img/academia03.jpg'?>") no-repeat center;
+        }
+
 
        
 
@@ -248,7 +256,7 @@ session_start()
                 <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
                     <div class="corpo">
                         <!-- Insira aqui a imagem da unidade 1, resolucao recomendada: 280x161-->
-                        <div class="imagem_academia01">
+                        <div class="imagem_academia02">
                           
                         </div>
 
@@ -260,7 +268,43 @@ session_start()
                         </ul>
 
                         <ul class="local_info_endereco">
-                           <li>AVENIDA FERNANDES LIMA, 3204</li>
+                           <li>Avenida Fernandes Lima, 3204</li>
+                        </ul>
+                        <ul class="local_info_horario">
+                            <p>Seg à Sex: 05:00 às 23:00</p>
+                            <p>Sáb: 08:00 às 14:00</p>
+                            <p>Dom: 09:00 às 13:00</p>
+                    
+                        </ul>
+                        <div style="width: 100%; display: block; text-align: center; padding: 10px 0 10px 0;">
+                            <input type="hidden" name="chave" value="968853053284c17b342086c9adfa2abf">
+                            <input type="hidden" name="codEmpresa" value="2">
+                            <button type="submit" name="singlebutton"
+                                    class="btn  btn-home btn-primary btn-contratar">
+                                Ver Planos <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-4 modelo plano" style="width: 370px; height: auto; position:relative; top:36% ; left: 7% ">
+                <form action="<?php echo base_url() . 'index.php/PlanoController/show' ?>" method="post">
+                    <div class="corpo">
+                        <!-- Insira aqui a imagem da unidade 3, resolucao recomendada: 280x161-->
+                        <div class="imagem_academia03">
+                          
+                        </div>
+
+                        <!-- Unidade 3 -->
+                        <ul class="local_info_local">
+                            <h1>Unidade</h1>
+                            <h5>BG Biu</h5>
+                             <h1>Benedito Bentes, Maceió - AL</h1>
+                        </ul>
+
+                        <ul class="local_info_endereco">
+                           <li>Avenida Cachoeira do Meirim, 33</li>
                         </ul>
                         <ul class="local_info_horario">
                             <p>Seg à Sex: 05:00 às 23:00</p>
